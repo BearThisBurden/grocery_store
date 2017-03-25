@@ -1,9 +1,9 @@
 import web
 
-db_host = 'localhost'
-db_name = 'grocery_store'
-db_user = 'root'
-db_pw = ''
+db_host = 'edo4plet5mhv93s3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
+db_name = 'tf71g665v2egz9ft'
+db_user = 'psveutvxir3d6sja'
+db_pw = 'qg2trvbysgtdxj5w'
 
 db = web.database(
 	dbn = 'mysql',
