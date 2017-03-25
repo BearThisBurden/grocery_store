@@ -1,8 +1,3 @@
-drop database if exists grocery_store;
-create database if not exists grocery_store;
-
-use grocery_store;
-
 create table products (
 	id_product tinyint(3) not null auto_increment primary key,
 	product varchar(20) not null unique,
