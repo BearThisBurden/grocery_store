@@ -1,0 +1,15 @@
+$def with(products)
+
+<h1>Products</h1>
+<table>
+	<th>Product</th>
+	<th>Edit</th>
+	<th>Delete</th>
+
+	$for item in products:
+	<tr>
+		<td>$item.product</td>
+		<td>Edit</td>
+		<td>Delete</td>
+	</tr>
+</table>

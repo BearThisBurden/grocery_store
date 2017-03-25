@@ -1,0 +1,28 @@
+$def with(product)
+<div class="container">
+	<h2>Products</h2>
+	<p>Product list from the database</p>            
+	<table class="table table-striped">
+	$for item in product:
+    	<thead>
+    		<tr>
+        		<th>Product</th>
+        		<th>Description</th>
+        		<th>Stock</th>
+        		<th>Purchase Cost</th>
+        		<th>Sale Cost</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+        		<td>$item.product</td>
+        		<td>$item.description</td>
+        		<td>$item.stock</td>
+        		<td>$item.purchase_cost</td>
+        		<td>$item.sale_cost</td>
+      		</tr>
+    	</tbody>
+	</table>
+</div>
+
+<img src='static/img/$item.product_image'/> 
